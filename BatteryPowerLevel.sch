@@ -1,0 +1,280 @@
+EESchema Schematic File Version 4
+LIBS:BatteryPowerLevel-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D1
+U 1 1 5C7E1E39
+P 3400 2350
+F 0 "D1" H 3438 2233 50  0000 R CNN
+F 1 "LED" H 3450 2500 50  0000 R CNN
+F 2 "Battery_Power_Level:LTST-C191KGKT (LED 2V)" H 3400 2350 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+	1    3400 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5C7E1EB3
+P 3900 2350
+F 0 "D2" H 3938 2233 50  0000 R CNN
+F 1 "LED" H 3950 2500 50  0000 R CNN
+F 2 "Battery_Power_Level:LTST-C191KGKT (LED 2V)" H 3900 2350 50  0001 C CNN
+F 3 "~" H 3900 2350 50  0001 C CNN
+	1    3900 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5C7E1F3C
+P 4850 2350
+F 0 "D3" H 4888 2233 50  0000 R CNN
+F 1 "LED" H 4900 2500 50  0000 R CNN
+F 2 "Battery_Power_Level:LTST-C191KGKT (LED 2V)" H 4850 2350 50  0001 C CNN
+F 3 "~" H 4850 2350 50  0001 C CNN
+	1    4850 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5C7E1FC0
+P 4400 2350
+F 0 "D4" H 4438 2233 50  0000 R CNN
+F 1 "LED" H 4450 2500 50  0000 R CNN
+F 2 "Battery_Power_Level:LTST-C191KGKT (LED 2V)" H 4400 2350 50  0001 C CNN
+F 3 "~" H 4400 2350 50  0001 C CNN
+	1    4400 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5C7E2043
+P 5300 2350
+F 0 "D5" H 5338 2233 50  0000 R CNN
+F 1 "LED" H 5350 2500 50  0000 R CNN
+F 2 "Battery_Power_Level:LTST-C191KGKT (LED 2V)" H 5300 2350 50  0001 C CNN
+F 3 "~" H 5300 2350 50  0001 C CNN
+	1    5300 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED DB1
+U 1 1 5C7E2132
+P 5750 3450
+F 0 "DB1" V 5788 3333 50  0000 R CNN
+F 1 "LED" V 5697 3333 50  0000 R CNN
+F 2 "Battery_Power_Level:LW514 (LED 3.2V)" H 5750 3450 50  0001 C CNN
+F 3 "~" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED DA1
+U 1 1 5C7E219C
+P 5300 3450
+F 0 "DA1" V 5338 3333 50  0000 R CNN
+F 1 "LED" V 5247 3333 50  0000 R CNN
+F 2 "Battery_Power_Level:LW514 (LED 3.2V)" H 5300 3450 50  0001 C CNN
+F 3 "~" H 5300 3450 50  0001 C CNN
+	1    5300 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED DC1
+U 1 1 5C7E2219
+P 6200 3450
+F 0 "DC1" V 6238 3333 50  0000 R CNN
+F 1 "LED" V 6147 3333 50  0000 R CNN
+F 2 "Battery_Power_Level:LW514 (LED 3.2V)" H 6200 3450 50  0001 C CNN
+F 3 "~" H 6200 3450 50  0001 C CNN
+	1    6200 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE DB2
+U 1 1 5C7E2450
+P 5750 4000
+F 0 "DB2" V 5704 4128 50  0000 L CNN
+F 1 "DIODE" V 5795 4128 50  0000 L CNN
+F 2 "Battery_Power_Level:MMBD914L (DIODE 0.77V)" H 5750 4000 50  0001 C CNN
+F 3 "~" H 5750 4000 50  0001 C CNN
+	1    5750 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE D6
+U 1 1 5C7E24FA
+P 5750 3000
+F 0 "D6" V 5704 3128 50  0000 L CNN
+F 1 "DIODE" V 5795 3128 50  0000 L CNN
+F 2 "Battery_Power_Level:MMBD914L (DIODE 0.77V)" H 5750 3000 50  0001 C CNN
+F 3 "~" H 5750 3000 50  0001 C CNN
+	1    5750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE DC2
+U 1 1 5C7E2B18
+P 6200 4000
+F 0 "DC2" V 6154 4128 50  0000 L CNN
+F 1 "DIODE" V 6245 4128 50  0000 L CNN
+F 2 "Battery_Power_Level:MMBD914L (DIODE 0.77V)" H 6200 4000 50  0001 C CNN
+F 3 "~" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE DC3
+U 1 1 5C7E2BD4
+P 6200 4550
+F 0 "DC3" V 6154 4678 50  0000 L CNN
+F 1 "DIODE" V 6245 4678 50  0000 L CNN
+F 2 "Battery_Power_Level:MMBD914L (DIODE 0.77V)" H 6200 4550 50  0001 C CNN
+F 3 "~" H 6200 4550 50  0001 C CNN
+	1    6200 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:DIODE DC4
+U 1 1 5C7E2D00
+P 6200 5100
+F 0 "DC4" V 6154 5228 50  0000 L CNN
+F 1 "DIODE" V 6245 5228 50  0000 L CNN
+F 2 "Battery_Power_Level:MMBD914L (DIODE 0.77V)" H 6200 5100 50  0001 C CNN
+F 3 "~" H 6200 5100 50  0001 C CNN
+	1    6200 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C7E3C3D
+P 6200 5600
+F 0 "R3" H 6270 5646 50  0000 L CNN
+F 1 "57.6" H 6270 5555 50  0000 L CNN
+F 2 "Battery_Power_Level:RC0402(resistors)" V 6130 5600 50  0001 C CNN
+F 3 "~" H 6200 5600 50  0001 C CNN
+	1    6200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C7E3CA1
+P 5750 5600
+F 0 "R2" H 5820 5646 50  0000 L CNN
+F 1 "147" H 5820 5555 50  0000 L CNN
+F 2 "Battery_Power_Level:RC0402(resistors)" V 5680 5600 50  0001 C CNN
+F 3 "~" H 5750 5600 50  0001 C CNN
+	1    5750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C7E3D11
+P 5300 5600
+F 0 "R1" H 5370 5646 50  0000 L CNN
+F 1 "191" H 5370 5555 50  0000 L CNN
+F 2 "Battery_Power_Level:RC0402(resistors)" V 5230 5600 50  0001 C CNN
+F 3 "~" H 5300 5600 50  0001 C CNN
+	1    5300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5C7E4112
+P 2650 4250
+F 0 "J1" H 2756 4428 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2756 4337 50  0000 C CNN
+F 2 "Battery_Power_Level:Connector" H 2650 4250 50  0001 C CNN
+F 3 "~" H 2650 4250 50  0001 C CNN
+	1    2650 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 6050 6200 5750
+Wire Wire Line
+	5750 5750 5750 6050
+Connection ~ 5750 6050
+Wire Wire Line
+	5750 6050 6200 6050
+Wire Wire Line
+	5300 5750 5300 6050
+Wire Wire Line
+	5300 6050 5750 6050
+Wire Wire Line
+	6200 5450 6200 5300
+Wire Wire Line
+	6200 4900 6200 4750
+Wire Wire Line
+	6200 4200 6200 4350
+Wire Wire Line
+	5750 4200 5750 5450
+Wire Wire Line
+	5300 3600 5300 5450
+Wire Wire Line
+	5750 3600 5750 3800
+Wire Wire Line
+	6200 3600 6200 3800
+Wire Wire Line
+	6200 3300 6200 3250
+Wire Wire Line
+	6200 3250 5750 3250
+Wire Wire Line
+	5750 3250 5750 3200
+Wire Wire Line
+	5750 3300 5750 3250
+Connection ~ 5750 3250
+Wire Wire Line
+	5750 3250 5300 3250
+Wire Wire Line
+	5300 3250 5300 3300
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C7E695E
+P 2850 2650
+F 0 "SW1" V 2896 2602 50  0000 R CNN
+F 1 "SW_Push" V 2805 2602 50  0000 R CNN
+F 2 "Battery_Power_Level:Connector" H 2850 2850 50  0001 C CNN
+F 3 "" H 2850 2850 50  0001 C CNN
+	1    2850 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 4350 2850 6050
+Wire Wire Line
+	2850 4250 2850 2850
+Text Notes 7400 7500 0    63   ~ 13
+Battery Power Level Indicator
+Text Notes 7000 7050 0    67   ~ 13
+ENEL 400 \n\n\nMatt Cruz
+Wire Wire Line
+	5450 2350 5750 2350
+Wire Wire Line
+	5750 2350 5750 2800
+Wire Wire Line
+	5300 6050 2850 6050
+Connection ~ 5300 6050
+Wire Wire Line
+	2850 2450 2850 2350
+Wire Wire Line
+	2850 2350 3250 2350
+Wire Wire Line
+	3550 2350 3750 2350
+Wire Wire Line
+	4050 2350 4250 2350
+Wire Wire Line
+	4550 2350 4700 2350
+Wire Wire Line
+	5000 2350 5150 2350
+$EndSCHEMATC
